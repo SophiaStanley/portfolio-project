@@ -18,21 +18,21 @@
 <style>
     /* There's a lot of responsiveness issues right now */
     div {
-        margin-top: 5%;
-        background-color: rgb(176, 0, 215);
-        height: 50vh;
+        margin-top: 1%;
+        background-color: #CEC2FF;
+        height: 60vh;
         width: 60vw;
         position: absolute;
     }
     h1 {
-        margin-top: 15vh;
+        margin-top: 20vh;
     }
     a {
-        background-color: purple;
+        background-color: rgb(171, 22, 205);
         padding: 10px;
     }
     a:hover {
-        background-color: rgb(49, 0, 60)
+        background-color: rgb(149, 0, 183)
     }
 
     img {

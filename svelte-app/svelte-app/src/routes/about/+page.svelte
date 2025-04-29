@@ -6,19 +6,32 @@
     });
 </script>
 
-<h1>About Me</h1>
-<p>I go to college and do other things sometimes</p>
+<div class = "about">
+    <h1>About Me</h1>
+    <p>I am an artist specialising in illustration and concept art. I currently attend South East Technological University Carlow
+    and am studying Computing in Interactive Digital Art and Design. I also do some UI and UX design. I coded this website! :D</p>
 
-<br>
+    <h2>Contact Me</h2>
+    <p>Here's my college email: <a href="mailto:c00299461@setu.ie">c00299461@setu.ie</a></p>
+</div>
 
-<h1>Contact Me</h1>
-<p>Here's my college email: <a href="mailto:c00299461@setu.ie">c00299461@setu.ie</a></p>
 
 <style>
-    h1 {
-        color: purple;
+    div {
+        margin-top: 1%; 
+        background-color: #CEC2FF;
+        height: 60%;
+        width: 80%;
+        position: absolute;
+        justify-content: right;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        margin-left: 7.5%;
     }
-    p {
-        font-size: 18px;
+    h1 {
+        margin-top: 10vh;
+    }
+    img {
+        width: 15%;
     }
 </style>
