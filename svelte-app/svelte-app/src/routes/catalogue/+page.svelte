@@ -13,7 +13,7 @@
 </script>
 
 
-<h1>Catalogue</h1>
+<h1>My Works</h1>
 
 <!-- Display a grid of items -->
 <div class="grid">

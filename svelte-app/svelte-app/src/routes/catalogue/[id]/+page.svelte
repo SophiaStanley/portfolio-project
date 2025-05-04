@@ -11,7 +11,7 @@
 
 
 <!-- Back button -->
-<button on:click={() => goto('/catalogue')}>← Back to Catalogue</button>
+<button on:click={() => goto('/catalogue')}>← View Other Works </button>
 
 <!-- Display item details -->
 <h1>{item.title}</h1>
