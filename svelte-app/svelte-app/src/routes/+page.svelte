@@ -1,5 +1,6 @@
 <script>
     import { onMount } from 'svelte';
+    import { base } from '$app/paths';
 
     onMount(() => {
         console.log("Home Page Loaded");
@@ -10,10 +11,10 @@
     <h1>Sophia Stanley</h1>
     <p>Concept Artist</p>
     <br>
-    <p><a href="/works">View Work</a></p>
+    <p><a href="{base}/catalogue">View Work</a></p>
 </div>
 
-<img src=/HomeImage.png alt = "Selt Portrait">
+<img src={base}/HomeImage.png alt = "Selt Portrait">
 
 <style>
     div {
