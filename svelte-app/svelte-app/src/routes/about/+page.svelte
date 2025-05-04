@@ -20,18 +20,15 @@
     div {
         margin-top: 1%; 
         background-color: #CEC2FF;
-        height: 60%;
-        width: 80%;
+        height: 60vh;
+        width: 60vw;
         position: absolute;
         justify-content: right;
         padding-left: 5vw;
         padding-right: 5vw;
-        margin-left: 7.5%;
+        align-self: center;
     }
     h1 {
-        margin-top: 10vh;
-    }
-    img {
-        width: 15%;
+        margin-top: 5vh;
     }
 </style>
