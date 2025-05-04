@@ -3,9 +3,8 @@
 </script>
 <!-- Header -->
 <header>
-    <!-- logo-->
-    <div class = "logo">
-        <img src="/Placeholder.jpg" alt ="Website Logo">
+    <!-- Title on header -->
+    <div class = "title">
         <h1>Sophia Stanley</h1>
     </div>
 
@@ -19,13 +18,9 @@
         padding: 1rem;
         text-align: center;
     }
-    .logo {
+    .title {
         display: flex;
         align-items: center;
-    }
-    .logo img {
-        width: 5%;
-        margin-right: 0.75rem;
     }
     h1 {
         color: white;

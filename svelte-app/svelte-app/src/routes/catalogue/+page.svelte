@@ -27,9 +27,11 @@
 
 
 <style>
+
+    /* Unfortunately the pictures don't display fully on mobile on this page, but they do when you click into them */
     
     img {
-        height: 70%;
+        height: 30vh;
         align-self: center
     }
     /* Responsive grid for item layout */
@@ -48,8 +50,8 @@
         box-shadow: 0 2px 6px rgba(0,0,0,0.1);
         transition: transform 0.2s ease;
         overflow:hidden;
-        width: 90%;
-        height: 20%;
+        width: 100%;
+        height: 90%;
     }
 
     .card:hover {

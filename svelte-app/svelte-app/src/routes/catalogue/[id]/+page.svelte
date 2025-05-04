@@ -15,14 +15,14 @@
 
 <!-- Display item details -->
 <h1>{item.title}</h1>
-<img src = {item.image} alt = "placeholder">
+<img src = {item.image} alt = {item.alt}>
 <p>{item.description}</p>
 
 
 <style>
     button {
         margin-bottom: 1rem;
-        background-color: #4b91e2;
+        background-color: rgb(171, 22, 205);
         color: white;
         padding: 0.5rem 1rem;
         border-radius: 6px;
@@ -31,7 +31,7 @@
     }
 
     button:hover {
-        background-color: #3a77c4;
+        background-color: rgb(149, 0, 183);
     }
 
     img {
@@ -41,6 +41,12 @@
     }
     p {
         padding-bottom: 5vh;
+    }
+    @media (max-width: 768px) {
+        img {
+            height: 30%;
+            width: 100%;
+        }
     }
 </style>
   

@@ -16,7 +16,6 @@
 <img src=/HomeImage.png alt = "Selt Portrait">
 
 <style>
-    /* There's a lot of responsiveness issues right now */
     div {
         margin-top: 1%;
         background-color: #CEC2FF;
@@ -40,6 +39,13 @@
         height: 609px;
         width: 421px;
         margin-left: 60vw;
+    }
+    @media (max-width: 768px) {
+        img {
+            position: fixed;
+            margin-left: 10vw;
+            margin-top: 20vh;
+        }
     }
     
 </style>
